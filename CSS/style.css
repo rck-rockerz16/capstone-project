@@ -1,0 +1,85 @@
+body {
+    background-color: #f2e6ff;
+    color: #492b68
+}
+
+h1:hover {
+    background-color: white;
+}
+
+h2:hover {
+    background-color: white;
+}
+
+p:hover {
+    background-color: white;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    margin: 20px;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.bio {
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    bottom: 120px;
+}
+
+#hr1 {
+    background-color: #e9d7fc;
+    border-top-style: dotted;
+    border-color: #9d40ff;
+    border-width: 5px;
+    width: 20%;
+}
+
+hr {
+    background-color: #a95bfc;
+    border-style: none;
+    height: 1px;
+    /*To make hr bg white:-
+    1. remove the default border, set it to none (now the box is of 0px height)
+    2. increase the height of the box
+    3. set the bg color of hr white*/
+    clear: left;
+}
+
+h1 {
+    color: #6704d1;
+}
+
+h2 {
+    color: #a149ff;
+    clear: left;
+}
+
+.content {
+    padding-left: 10px;
+}
+
+@media(max-width:640px) {
+    img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bio {
+        position: static;
+        text-align: center;
+        display: block;
+        margin-left: 0;
+    }
+
+    .main {
+        text-align: center;
+    }
+}
